@@ -1,11 +1,12 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {Platform} from 'react-native';
+import { Background } from './styles';
 
 
 export default function SignUp(){
     return(
-        <View>
+        <Background>
             <Text>Tela Cadastro</Text>
-        </View>
+        </Background>
     );
 }
