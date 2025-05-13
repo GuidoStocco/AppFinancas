@@ -49,5 +49,5 @@ export const Link = styled.TouchableOpacity`
 `;
 
 export const LinkText = styled.Text`
-
+ color: #171717
 `;
