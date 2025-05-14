@@ -26,7 +26,9 @@ export default function AuthRoutes(){
                     borderBottomWidth: 1,
                     borderBottomColor: '#00b94a'
                 },
-                
+                headerTintColor: '#fff',
+                headerTitle: 'Voltar',
+                headerBackTitleVisible: false
             }}
             />
         </AuthStack.Navigator>
