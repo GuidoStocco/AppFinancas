@@ -21,7 +21,12 @@ export default function AuthRoutes(){
             name='SignUp'
             component={SignUp}
             options={{
-                headerShown: false
+                headerStyle:{
+                    backgroundColor: '#3b3dbf',
+                    borderBottomWidth: 1,
+                    borderBottomColor: '#00b94a'
+                },
+                
             }}
             />
         </AuthStack.Navigator>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Platform} from 'react-native';
+import {Platform,View,Text} from 'react-native';
 
 import {
     Background, 
@@ -10,7 +10,8 @@ import {
     SubmitButton,
     SubmitText,
     Link,
-    LinkText} from './styles'
+    LinkText,
+} from './styles'
 
 import {useNavigation} from '@react-navigation/native'    
 

@@ -45,9 +45,10 @@ color: #fff
 `;
 
 export const Link = styled.TouchableOpacity`
-
+ margin-top: 2
 `;
 
 export const LinkText = styled.Text`
- color: #171717
+ color: #121212;
+ font-size: 16px;
 `;
