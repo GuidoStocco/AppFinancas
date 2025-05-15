@@ -9,10 +9,10 @@ import {AuthProvider} from './src/contexts/auth';
 
 export default function App() {
   return (
-    <SafeAreaView style={{backgroundColor: '#f4f0ff', flex: 1}}>
+    <SafeAreaView style={{flex: 1}}>
+    <StatusBar barStyle='dark-content' backgroundColor='#000' translucent/>
     <NavigationContainer>
       <AuthProvider>
-      <StatusBar barStyle='dark-content'/>
       <Routes/>
       </AuthProvider>
     </NavigationContainer>

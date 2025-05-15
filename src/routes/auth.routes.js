@@ -3,6 +3,9 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack'
 
 import SignIn from '../pages/SignIn/index';
 import SignUp from '../pages/SignUp/index';
+import { Header } from '../components/header';
+
+
 
 const AuthStack = createNativeStackNavigator();
 
@@ -21,14 +24,8 @@ export default function AuthRoutes(){
             name='SignUp'
             component={SignUp}
             options={{
-                headerStyle:{
-                    backgroundColor: '#3b3dbf',
-                    borderBottomWidth: 1,
-                    borderBottomColor: '#00b94a'
-                },
-                headerTintColor: '#fff',
-                headerTitle: 'Voltar',
-                headerBackTitleVisible: false
+                header: () => <Header/>
+                
             }}
             />
         </AuthStack.Navigator>
