@@ -1,5 +1,5 @@
-import React from 'react';
-import {Platform,View,Text} from 'react-native';
+import React, {useState} from 'react';
+import {Platform} from 'react-native';
 
 import {
     Background, 
@@ -17,6 +17,8 @@ import {useNavigation} from '@react-navigation/native'
 
 
 export default function SignIn(){ 
+
+    const [] = useState('');
 
     const navigation = useNavigation();
 
